@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <LINK rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="headpart">
+            <div id="logo">
+                <a href="#" style="font-size: 28px;"><i class="fas fa-hospital" style="font-size: 40px;"></i> Go Blood!</a>
+            </div>
+            <div id="contact">
+                <div id="phone" style="font-size: 19px;">
+                    <i class="fa-solid fa-phone" style="font-size: 22px;"></i>+39 12345XX<br>
+                    <i class="fa-solid fa-envelope" style="font-size: 22px;"></i>info@goblood.org
+                </div>
+            </div>
+            <div id="location" style="font-size: 19px;">
+                <i class="fa-solid fa-location-dot style=font-size: 22px;"></i>35-43/A<BR>Arcot Road<br>Vellore-630 014
+            </div>
+            <div id="right_tab">
+                <div id="donateblood">
+                    <button id="buttonblood" type="submit">DONATE<i class="fa-solid fa-droplet"></i></button>
+                </div>
+                <DIV ID="credentials">
+                    <form action="login.php">
+                        <fieldset>
+                            <legend>LOGIN:</legend>
+                            <label for="mail">Mail Id: </label>
+                            <input placeholder="enter mail id" type="email" id="mail" name="mail"><br>
+                            <label for="phone">Phone No: </label>
+                            <input type="text" id="phone" placeholder="enter phone" name="phone"><br>
+                            <button id="enter">SUBMIT</button>
+                        </fieldset>                   
+                     </form>
+                </DIV>
+            </div>
+        </div>
+        <div id="popmsg" style="text-align: center; background-color: #ff7d00; display: none;">
+            "check your email or phone to verify your account."
+        </div>
+    </header>
+    <div id="navbar">
+        <div id="home">
+            <a href="home.com">HOME</a>
+        </div>
+        <div id="donateblood">
+            <a href="donateblood.com">DONATE BLOOD</a>
+        </div>
+        <div id="donateloc">
+            <A HREF="DONATELOC.COM">DONATE CENTER LOCATIONS</A>
+        </div>
+        <div id="appoint">
+            <a href="Appointment.com">APPOINTMENT</a>
+        </div>
+        <div id="services">
+            <A HREF="SERVICES.COM">SERVICES</A>
+        </div>
+        <div id="support">
+            <A HREF="SUPPORT.COM">SUPPORT US</A>
+        </div>
+        <div id="about">
+            <A HREF="ABOUT.COM">ABOUT US</A>
+        </div>
+        <div id="contacts">
+            <A href="CONTACTS.COM">CONTACTS</A>
+        </div>
+    </div>
+    <div id="mainer">
+        <div id="midtext" style="color: black; font-size: larger; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 700; font-style: italic;">
+            " At Go Blood!, we believe in the incredible power of humanity coming together to make a difference.<br> 
+            Our mission is simple yet profound - to save lives by ensuring a steady and reliable supply of blood for<br>
+             those in need. Join us in our noble cause and be a hero in someone's story. "
+        </div>
+        <div id="joinuss">
+            <button id="clickjoin">JOIN</button>
+            <fieldset id="form">
+                <legend>Enter Details: </legend>
+                <label for="name">Name : </label>
+                <input type="text" id="name" name="name">
+                <label for="mobile">Mobile : </label>
+                <input type="tel" id="mobile" name="mobile"><br>
+                <label for="email">Email ID : </label>
+                <input  type="email" id="email" name="email">
+                <label for="age">Age : </label>
+                <input type="number" id="age" name="age"><br>
+                <label for="gender">Gender : </label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="no">Prefer Not To Say</option>
+                </select><br>
+                <label for="bloodgrp">Blood Group : </label>
+                <select name="bldgrp" id="bldgrp">
+                    <option value="O+ve">O+</option>
+                    <option value="0-ve">O-</option>
+                    <option value="A+ve">A+</option>
+                    <option value="A-ve">A-</option>
+                    <option value="B+ve">B+</option>
+                    <option value="B-ve">B-</option>
+                    <option value="AB+ve">AB+</option>
+                    <option value="AB-ve">AB-</option>
+                </select><br><button id=submitdet>SUBMIT</button><BR><BR>
+                <button id="closebtn">CLOSE</button>
+            </fieldset>
+        </div>
+        <div id="null"></div>
+    </div>
+    <div id="contributionsimg">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

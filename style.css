@@ -1,0 +1,183 @@
+#headpart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e9c46a;
+    height: 160px;
+}
+
+#right_tab #buttonblood {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#buttonblood {
+    margin-left: 90px;
+    align-content: center;
+    justify-content: center;
+    border-color: #e76f51;
+    background-color: #ff7d00;
+    border-radius: 20px;
+    height:45px;
+    width: 100px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: #780000;
+}
+
+#buttonblood:hover {
+    width: 120px;
+    height: 60px;
+    transition: 0.2s ease-out;
+    align-content: center;
+}
+
+fieldset legend {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #780000;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logo a:hover {
+    opacity: 0.7;
+}
+
+#navbar {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: #ef233c;
+    font-weight: 500;
+    font-style:inherit;
+}
+#navbar div a:hover {
+    color:black;
+    font-size: 22px;
+    transition: 0.4s ease-in;
+    
+}
+
+
+#home:hover,#aboutus:hover,#contacts:hover,#services:hover,#support:hover,#appoint:hover,#about:hover,#donateloc:hover{
+    background-color: #dedbd2;
+    color: black;
+    opacity: 0.8;
+    border-top: 1px solid black;
+    
+}
+
+#mainer {
+    height: 900px;
+    background-image: url("back3.png");
+    background-repeat: repeat-y;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+
+#enter {
+    margin-left: 90px;
+    align-content: center;
+    justify-content: center;
+    border-color: #e76f51;
+    background-color: #ff7d00;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: #780000;
+
+}
+
+#form {
+    display: none;
+}
+
+#midtext {
+    border: 6px solid white;
+    height: 160px;
+    width: 550px;
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#clickjoin {
+    margin-left: 550px;
+    margin-top: 200px;
+    width: 130px;
+    height: 45px;
+    border: beige 2px solid;
+    border-radius: 20px;
+    box-shadow: 6px 7px;
+    background-color: #d8e2dc;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #d90429;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+    
+
+#form {
+    margin-left: 400px;
+    color: #dedbd2;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    border-radius: 15px;
+    border: 5px solid beige;
+}
+#form #submitdet {
+    margin-top: 10px;
+    background-color: #d8e2dc;
+    color: #d90429;
+    width: 100px;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    font-weight: 700;
+    border-radius: 10px;
+
+}
+#form #closebtn {
+    
+    background-color: #d8e2dc;
+    color: #d90429;
+    width: 100px;
+    height: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: -2px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+#donateblood:hover {
+    opacity: 1;
+}
